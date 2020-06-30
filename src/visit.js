@@ -16,6 +16,11 @@ const visitContent = () => {
     const phoneHeading = document.createElement("h2");
     phoneHeading.setAttribute("style", "text-align: center; font-family: Georgia, 'Times New Roman', Times, serif");
     phoneHeading.innerHTML = "You can also contact us at +971506549873210 <br> to make bookings and reservations";
+    const resImage = document.createElement("img");
+    resImage.setAttribute("id", "reservation");
+    resImage.setAttribute("src", "../images/reserve.jpg");
+    resImage.setAttribute("style", "margin: auto; display: block");
+    tabContent.appendChild(resImage);
     tabContent.appendChild(phoneHeading);
 }
 export {visitContent};
