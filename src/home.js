@@ -30,6 +30,11 @@ const mainPage = () => {
     }
     const navContent = () => {
         const navDiv = document.querySelector("#nav-bar");
+        const initTab = document.createElement("div");
+        initTab.classList.add("nav-div");
+        initTab.setAttribute("style", "text-align: center; font-family: Georgia, 'Times New Roman', Times, serif");
+        initTab.innerHTML = "Home";
+        navDiv.appendChild(initTab);
         const firstTab = document.createElement("div");
         firstTab.classList.add("nav-div");
         firstTab.setAttribute("style", "text-align: center; font-family: Georgia, 'Times New Roman', Times, serif");
