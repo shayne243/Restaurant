@@ -1,1 +1,2 @@
-alert("Hello");
+import {mainPage} from "./home.js"
+mainPage();
